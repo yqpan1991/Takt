@@ -37,6 +37,6 @@ public class MainActivity extends AppCompatActivity {
   @Override
   protected void onStop() {
     super.onStop();
-    Takt.finish();
+    //Takt.finish();
   }
 }

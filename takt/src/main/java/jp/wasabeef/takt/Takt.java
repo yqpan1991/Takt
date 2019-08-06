@@ -80,7 +80,7 @@ public class Takt  {
       if (isOverlayApiDeprecated()) {
         params.type = LayoutParams.TYPE_APPLICATION_OVERLAY;
       } else {
-        params.type = LayoutParams.TYPE_TOAST;
+        params.type = LayoutParams.TYPE_PHONE;
       }
       params.flags = LayoutParams.FLAG_KEEP_SCREEN_ON | LayoutParams.FLAG_NOT_FOCUSABLE
           | LayoutParams.FLAG_NOT_TOUCH_MODAL | LayoutParams.FLAG_NOT_TOUCHABLE;

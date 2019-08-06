@@ -29,13 +29,13 @@ public class SampleApplication extends Application {
     super.onCreate();
     Takt.stock(this)
         .seat(Seat.TOP_RIGHT)
-        .interval(250)
+        .interval(100)
         .color(Color.WHITE)
         .size(14f)
         .alpha(.5f)
         .listener(new Audience() {
           @Override public void heartbeat(double fps) {
-            Log.d("Excellent!", fps + " fps");
+            Log.d("Competitor", fps + " fps");
           }
         })
         .useCustomControl();
